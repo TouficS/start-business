@@ -52,7 +52,30 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
  <!-- Content Title ends / Fin du titre du contenu --> 
  <!-- Content begins / D&eacute;but du contenue -->
 <section>
+	
+	
+<div class="wb-frmvld"><form method="get">
+	<div class="wb-fieldflow" data-wb-fieldflow='{"noForm": true}'>
+		<p>Choose content to be toggle?</p>
+		<ul>
+			<li data-wb-fieldflow='{"action": "toggle", "toggle": "#toggle-third", "live": true}'>Toggle third</li>
+			<li data-wb-fieldflow='{"action": "toggle", "toggle": "#toggle-forth", "live": true}'>Toggle forth</li>
+			<li data-wb-fieldflow='{"action": "toggle", "toggle": "#toggle-third, #toggle-forth", "live": true}'>Toggle both</li>
+		</ul>
+	</div>
 
+	<div id="toggle-third" class="well hidden">
+		<p>This is third <code>@id=toggle-third</code></p>
+	</div>
+
+	<div id="toggle-forth" class="jumbotron hidden">
+		<p>This is forth <code>@id=toggle-forth</code></p>
+	</div>
+
+</form></div>
+
+	
+<div class="wb-frmvld"><form method="get">
 <div class="wb-fieldflow" data-wb-fieldflow='{"noForm": true}'>
 	<p>The image</p>
 		<ul>
@@ -86,7 +109,7 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 			
 		</ul>
 </div>
-	
+</form></div>
 	
 </section>
   <!-- Fin du contenue/Content ends  --> 

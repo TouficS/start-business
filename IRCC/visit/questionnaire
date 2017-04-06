@@ -1,0 +1,574 @@
+<!DOCTYPE html><!--[if lt IE 9]><html class="no-js lt-ie9" lang="en" dir="ltr"><![endif]--><!--[if gt IE 8]><!-->
+<html class="no-js" lang="en" dir="ltr">
+<!--<![endif]--><head>
+<meta charset="utf-8">
+<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+<title>Determine your eligibility -  Self-Assessment Tool</title>
+<meta content="width=device-width,initial-scale=1" name="viewport">
+<!-- Meta data -->
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="dcterms.creator" content="Government of Canada, Immigration, Refugees and Citizenship Canada, Communications Branch" />
+<meta name="dcterms.title" content="Determine your eligibility -  Self-Assessment Tool" />
+<meta name="dcterms.issued" title="W3CDTF" content="2017-03-30" />
+<meta name="dcterms.modified" title="W3CDTF" content="2017-03-30" />
+<meta name="dcterms.subject" title="scheme" content="" />
+<meta name="dcterms.language" title="ISO639-2" content="eng" />
+<!-- Meta data-->
+
+<!--[if gte IE 9 | !IE ]><!-->
+<link href="/wet-v4/dist/assets/favicon.ico" rel="icon" type="image/x-icon">
+<link rel="stylesheet" href="/wet-v4/dist/css/wet-boew.min.css">
+<!--<![endif]-->
+<link rel="stylesheet" href="/wet-v4/dist/css/theme.min.css">
+<!--[if lt IE 9]>
+<link href="/wet-v4/dist/assets/favicon.ico" rel="shortcut icon" />
+
+<link rel="stylesheet" href="/wet-v4/dist/css/ie8-wet-boew.min.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/wet-v4/dist/js/ie8-wet-boew.min.js"></script>
+<![endif]-->
+<!--[if lte IE 9]>
+
+<![endif]-->
+<noscript><link rel="stylesheet" href="/wet-v4/dist/css/noscript.min.css" /></noscript>
+<!-- Google Tag Manager DO NOT REMOVE OR MODIFY - NE PAS SUPPRIMER OU MODIFIER -->
+<script>dataLayer1 = [];</script>
+<!-- End Google Tag Manager -->
+
+<!-- Custom scripts/CSS begin / Début des scripts/CSS personnalisés -->
+
+	<!-- Google Analytics -->
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+  ga('create', 'UA-29097977-1', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+  
+  </script>
+  <!-- End Google Analytics -->
+  <script>
+  function urchinTracker(currentLinktracker) {
+  	ga('send','event','Linktracker',window.location.href,currentLinktracker);
+  }
+	</script>
+  
+ <link href="/css/util-wet4.css" media="screen, print" rel="stylesheet" type="text/css" /> 
+ <link href="/css/bootstrap-equivalence.css" media="screen, print" rel="stylesheet" type="text/css" /> 
+ <link href="/css/cic-wet4.css" media="screen, print" rel="stylesheet" type="text/css" /> 
+<!-- Custom scripts/CSS end / Fin des scripts/CSS personnalisés --> 
+<!-- Custom scripts/CSS begin / Début des scripts/CSS personnalisés --> 
+<!-- Custom scripts/CSS end / Fin des scripts/CSS personnalisés --> 
+
+
+</head>
+<body vocab="http://schema.org/" typeof="WebPage">
+<!-- Google Tag Manager DO NOT REMOVE OR MODIFY - NE PAS SUPPRIMER OU MODIFIER -->
+<noscript><iframe title="Google Tag Manager" src="//www.googletagmanager.com/ns.html?id=GTM-TLGQ9K" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer1'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer1','GTM-TLGQ9K');</script>
+<!-- End Google Tag Manager -->
+
+<ul id="wb-tphp">
+  <li class="wb-slc">
+    <a class="wb-sl" href="#cn-cont">Skip to main content</a>
+  </li>
+  <li class="wb-slc visible-sm visible-md visible-lg">
+    <a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
+  </li>
+
+</ul>
+
+<header role="banner">
+<div id="wb-bnr" class="container">
+
+<section id="wb-lng" class="visible-md visible-lg text-right">
+<h2 class="wb-inv">Language selection</h2>
+<div class="row">
+<div class="col-md-12">
+
+<ul class="list-inline margin-bottom-none">
+<li><a lang="fr" href="/francais/******.asp" onClick="javascript:urchinTracker('/linktracker/english/language-toggle/internal/francais');">Français</a></li>
+</ul>
+
+</div>
+</div>
+</section>
+
+<div class="row">
+<div class="col-xs-8 col-sm-9 col-md-6">
+<a href="http://www.canada.ca/en/index.html">
+ <object type="image/svg+xml" tabindex="-1" data="/wet-v4/dist/assets/sig-blk-en.svg"></object><span class="wb-inv"> Government of Canada</span></a>
+</div>
+ 
+<!-- (START) TEMPORARY SEARCH SOLUTION, CIC FORM IS FOUND BELOW 
+<section id="wb-srch" class="col-xs-6 text-right visible-md visible-lg">
+<h2 class="wb-inv">Search</h2>
+<form action="http://recherche-search.gc.ca/rGs/s_r?#wb-land" method="get" role="search" class="form-inline" id="searchCanada">
+<div class="form-group">
+<label for="wb-srch-q" class="wb-inv">Search website</label>
+<input name="cdn" value="canada" type="hidden"/>
+<input name="st" value="s" type="hidden"/>
+<input name="num" value="10" type="hidden"/>
+<input name="langs" value="eng" type="hidden"/>
+<input name="st1rt" value="0" type="hidden">
+<input name="s5bm3ts21rch" value="x" type="hidden"/>
+<input id="wb-srch-q" class="wb-srch-q form-control" name="q" type="search" value="" size="27" maxlength="150" placeholder="Search Canada.ca"/>
+</div>
+<div class="form-group submit">
+<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
+</div>
+</form>
+</section> -->
+<!-- (END) TEMPORARY SEARCH SOLUTION, CIC FORM IS FOUND BELOW --> 
+ 
+<section class="wb-mb-links col-xs-4 col-sm-3 visible-sm visible-xs" id="wb-glb-mn">
+<h2>Search and menus</h2>
+<ul class="list-inline text-right chvrn">
+<li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Search and menus</span></span></span></a></li>
+</ul>
+<div id="mb-pnl"></div>
+</section>
+
+<section id="wb-srch" class="col-xs-6 text-right visible-md visible-lg">
+<h2 class="wb-inv">Search</h2>
+<form action="http://staging.cic.gc.ca/search-recherche/index-eng.aspx?redir=true" method="post" name="cse-search-box" role="search" class="form-inline">
+ <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+ <script type="text/javascript"> 
+ var autoCompletionOptions = { 'validLanguages' : 'en', };
+ google.load( 'search', '1');
+ google.setOnLoadCallback( function() {google.search.CustomSearchControl.attachAutoCompletionWithOptions( '008724028898028201144:knjjdikrhq0', document.getElementById( 'wb-srch-q' ), 'cse-search-box', autoCompletionOptions );});
+ google.setOnLoadCallback( function() {setTimeout( function(){google.search.CustomSearchControl.attachAutoCompletionWithOptions( '008724028898028201144:knjjdikrhq0', document.getElementById( 'wb-srch-q-imprt' ), 'cse-search-box',autoCompletionOptions );}, 2000);});
+ </script>
+ <div class="form-group">
+ <label for="wb-srch-q" class="wb-inv">Search website</label>
+ <input id="wb-srch-q" class="wb-srch-q form-control" name="skey_quEryField" type="search" value="" size="27" maxlength="150" placeholder="Search Canada.ca"/>
+ </div>
+ <div class="form-group submit">
+ <button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
+ </div>
+ </form>
+ </section>
+ </div>
+ </div>
+
+<nav role="navigation" id="wb-sm" class="wb-menu visible-md visible-lg" data-trgt="mb-pnl" data-ajax-replace="//cdn.canada.ca/gcweb-cdn-dev/sitemenu/sitemenu-en.html" typeof="SiteNavigationElement">
+<h2 class="wb-inv">Topics menu</h2>
+<div class="container nvbar">
+<div class="row">
+<ul class="list-inline menu">
+<li><a href="http://www.esdc.gc.ca/en/jobs/index.page">Jobs</a></li>
+<li><a href="http://www.cic.gc.ca/english/index.asp">Immigration</a></li>
+<li><a href="https://travel.gc.ca/">Travel</a></li>
+<li><a href="https://www.canada.ca/en/services/business.html">Business</a></li>
+<li><a href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+<li><a href="https://www.canada.ca/en/services/health.html">Health</a></li>
+<li><a href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+<li><a href="https://www.canada.ca/en/services.html">More services</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+	
+
+<nav role="navigation" id="wb-bc" property="breadcrumb">
+<h2 class="wb-inv">You are here:</h2>
+<div class="container">
+<div class="row">
+	<ol class="breadcrumb">
+	 <li><a href="http://www.canada.ca/en/index.html">Home</a></li>
+ 
+		
+            <li><a href="/english/index.asp">Immigration and citizenship</a></li>
+            
+<li><a href="/english/department/index.asp">About us</a></li>
+<li><a href="/english/about_us/reports.asp">Reports and statistics</a></li>
+<li><a href="/english/resources/menu-research-stats.asp">Research and statistics</a></li>
+<li><a href="/english/resources/research/index.asp">Research</a></li>
+</ol>
+</div>
+</div>
+</nav>
+</header>
+
+ 
+
+ 	<main property="mainContentOfPage" class="container" role="main">
+    
+
+
+ <!-- Details/Summary expand for print -->
+ <span class="wb-toggle" data-toggle='{"selector": "main summary", "print": "on"}'></span> 
+
+
+<h1 id="cn-cont">Determine your eligibility -  Self-Assessment Tool</h1>
+<!-- Content begins / Début du contenue -->
+
+<p>Use this tool to help you determine if you are eligible to apply  for Canadian citizenship</p>
+<div class="wb-frmvld">
+  <form method="get">
+    
+    <!-- Question 1 -->
+    <div id="question-1" class="wb-fieldflow" data-wb-fieldflow='{
+		"renderas":"radio", 
+		"noForm": true,
+		"base": { "live": true },
+		"default": { "action": "addClass", "source":"#result-10,#result-11", "class": "hidden" }
+	}'>
+      <p>1. Have you been a permanent resident, and  physically been in Canada for at least 3 years in the past 5 year period?</p>
+      <ul>
+        <li data-wb-fieldflow='{"action": "append", "source": "#question-4"}'>Yes</li>
+        <li data-wb-fieldflow='{"action": "append", "source": "#question-2"}'>No</li>
+      </ul>
+    </div>
+  </form>
+</div>
+
+<!-- Question 2 -->
+<div id="question-2" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
+  <p>2. Have you lived in Canada with temporary resident or protected person status within the past 5 years?</p>
+  <ul>
+    <li data-wb-fieldflow='{"action": "append", "source": "#question-3"}'>Yes</li>
+    <li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result-11"}'>No</li>
+  </ul>
+</div>
+
+<!-- Question 3 -->
+<div id="question-3" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
+  <p>3. Have you been a permanent resident and  physically been in Canada for at least 2 years in the past 5 year period?</p>
+  <ul>
+    <li data-wb-fieldflow='{"action": "append", "source": "#question-4"}'>Yes</li>
+    <!-- à  go to 4 *need to indicate note for client to complete online calculation to use  NPR time -->
+    <li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result-11"}'>No</li>
+  </ul>
+</div>
+
+<!-- Question 4 -->
+<div id="question-4" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
+  <p>4. In the last 5 years have you been outside of Canada for more than a total of 730 days?</p>
+  <ul>
+    <li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result-11"}'>Yes</li>
+    <li data-wb-fieldflow='{"action": "append", "source": "#question-5"}'>No</li>
+  </ul>
+</div>
+
+<!-- Question 5 -->
+<div id="question-5" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
+  <p>5. Have Canadian officials asked you to leave Canadaor that you have unfulfilled conditions related to your permanent resident status?</p>
+  <ul>
+    <li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result-11"}'>Yes</li>
+    <li data-wb-fieldflow='{"action": "append", "source": "#question-6"}'>No</li>
+  </ul>
+</div>
+
+<!-- Question 6 -->
+<div id="question-6" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>    
+    <div class="wb-fieldflow-header">
+    <p class="wb-fieldflow-label">6. Do any of the following apply to you:</p>                           
+    <ul>
+  	  <li>I am in prison, on parole or on probation in Canada</li>
+      <li>I am serving a sentence outside Canada</li>
+      <li>I am charged with, on trial for, or involved in an appeal for an offence under the <em>Citizenship Act</em>, or an indictable offence in Canada,</li>
+      <li>I am charged with, on trial for, or involved in an appeal for an offence committed outside Canada that is determined to be equivalent to an indictable offence in Canada</li>
+      <li>I am being investigated for, am charged with, on trial for, involved in an appeal for or have been convicted of a war crime or a crime against humanity</li>
+      <li>I have had a citizenship application refused for misrepresentation in the past five years</li>
+      <li>I have had my Canadian citizenship revoked (taken away) because of fraud in the past ten years</li>
+      <li>I have had my Canadian citizenship revoked (taken away) because I have been convicted of terrorism, high treason, treason, or spying offences, depending on the sentence received; or because I have served as a member of an armed force of a country or organized armed group and that country or group engaged in armed conflict with Canada</li>
+      <li>I have been convicted of an indictable offence in Canada or an offence under the <em>Citizenship Act</em> in the last 4 years</li>
+      <li>I have been convicted outside Canada of an offence that is determined to be equivalent to an indictable offence in Canada in the last 4 years, even a pardon or other amnesty was granted for the offence</li>
+      <li>I have been convicted of terrorism, high treason, treason, or spying offences while I were a permanent resident</li>
+      <li>I served as a member of an armed force of a country or organized armed group and that country or group engaged in armed conflict with Canada, while I was a permanent resident</li>
+    </ul>
+    </div>
+    <ul>
+    <li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result-11"}'>Yes</li>
+    <li data-wb-fieldflow='{"action": "append", "source": "#question-7"}'>No</li>
+  </ul>
+</div>
+
+<!-- Question 7 -->
+<div id="question-7" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
+    <div class="wb-fieldflow-header">
+    <p class="wb-fieldflow-label">7. Which of these language options is correct for you?</p>                           
+    <p>Examples of proof that you have knowledge of English or French (for more details see section 15 of the guide):</p>
+    <ul>
+      <li>Results from an IRCC approved third party language test</li>
+      <li>Diploma, certificate or final transcript demonstrating completion from a secondary or post-secondary school that was completed in English or French</li>
+      <li>Evidence of achieving CLB/NCLC 4 in a government funded language training program</li>
+      <li>If you are deaf: Supporting evidence of an audiogram along with an attestation issued by a Canadian audiologist</li>
+    </ul>
+    </div>
+  <ul>
+    <li data-wb-fieldflow='{"action": "append", "source": "#question-8"}'>I am 17 or younger, or 55 or older (no proof of language is required)</li>
+    <li data-wb-fieldflow='{"action": "append", "source": "#question-8"}'>I am between 18 and 54 and I have proof that I have knowledge of English or French</li>
+    <li data-wb-fieldflow='{"action": "append", "source": "#question-8"}'>I am between 18 and 54 and I have supporting evidence from a medical practitioner authorized to practice in Canada that I have a disorder, disability, or condition that is cognitive, psychiatric, or physiological</li>
+    <li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result-11"}'>I am between 18 and 54 and I do NOT have proof that I have knowledge of English or French</li>
+  </ul>
+</div>
+
+<!-- Question 8 -->
+<div id="question-8" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
+  <p>8. In the past 5 years, have you been required to file your personal income taxes under the <em>Income Tax Act</em> of Canada?</p>
+  <ul>
+    <li data-wb-fieldflow='{"action": "append", "source": "#question-9"}'>Yes</li>
+    <li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result-10"}'>No</li>
+  </ul>
+</div>
+
+<!-- Question 9 -->
+<div id="question-9" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
+  <p>9. Have you filed personal income taxes for at  least 3 years in the past 5 years?</p>
+  <ul>
+    <li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result-10"}'>Yes</li>
+    <li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result-11"}'>No</li>
+  </ul>
+</div>
+
+<!-- Resultat: Item 10 -->
+<div id="result-10" class="hidden">
+  <p>10. You probably meet the requirements for the Grant  of Canadian citizenship.</p>
+  <p>Next steps:</p>
+  <ul>
+    <li>Use the <a href="https://eservices.cic.gc.ca/rescalc/resCalcStartNew.do">Physical Presence Calculator</a> to confirm you have been in Canada for the required 1095 days in  the past 5 years</li>
+    <li>Follow the guide to complete your application</li>
+  </ul>
+</div>
+
+<!-- Resultat: Item 11 -->
+<div id="result-11" class="hidden">
+  <p>11. It appears that you may not meet one or more of the requirements to become a Canadian citizen.</p>
+  <p><strong>You should wait to apply  until you meet all of the requirements.</strong></p>
+  <p>In rare  cases it is possible that time spent outside of Canada can count towards the  physical presence requirement when applying for citizenship, <a href="http://www.cic.gc.ca/english/helpcentre/answer.asp?qnum=370&top=5">learn more</a>.</p>
+</div>
+<p>Disclaimer: These questions are based on the general/legal requirements for a Canadian citizenship application under subsection 5(1) of the Citizenship Act.  The results provide a general guideline to help you determine if you are ready to apply for Canadian citizenship and is not legal advice, nor will it be part of your formal application.  You must submit an official application using the form CIT 0002 to begin the process of becoming a Canadian citizens.  Please see the guide for more information.</p>
+
+<!-- Content ends / Fin du contenue --> 
+
+
+<div class="row pagedetails">
+    <div class="col-sm-6 col-lg-4 mrgn-tp-sm">
+    	<a href="https://www.canada.ca/en/report-problem.html" class="btn btn-default btn-block">Report a problem or mistake on this page</a>
+    </div>
+	<div class="col-sm-3 mrgn-tp-sm pull-right">
+		<div class="wb-share" data-wb-share='{"lnkClass": "btn btn-default btn-block"}'></div>
+	</div>
+	<div class="datemod col-xs-12 mrgn-tp-lg">
+		<dl id="wb-dtmd">
+			<dt>Date Modified:&#32;</dt>
+			<dd><time property="dateModified">2017-03-30</time></dd>
+		</dl>
+	</div>
+</div>
+
+
+
+</main>
+ 
+<!-- Footer / Pied de la page--> 
+
+
+<aside class="gc-nttvs container">
+  <h2>Government of Canada activities and initiatives</h2>
+  <div id="gcwb_prts" class="wb-eqht row" data-ajax-replace="//cdn.canada.ca/gcweb-cdn-dev/features/features-en.html">
+    <p class="mrgn-lft-md"><a href="http://www.canada.ca/activities.html">Access Government of Canada activities and initiatives</a></p>
+  </div>
+</aside>
+<footer role="contentinfo" id="wb-info">
+<nav role="navigation" class="container visible-sm visible-md visible-lg wb-navcurr">
+  <h2 class="wb-inv">About this site</h2>
+  <div class="row">
+    <div class="col-sm-3 col-lg-3">
+      <section>
+        <h3>Contact information</h3>
+        <ul class="list-unstyled">
+          
+          <li><a onclick="javascript:urchinTracker('/linktracker/english/footer/internal/enquiries');" href="/english/contacts/index.asp">Enquiries</a></li>
+          <li><a onclick="javascript:urchinTracker('/linktracker/english/footer/internal/helpcentre');" href="/english/helpcentre/index.asp">Help Centre</a></li>
+          <li><a onclick="javascript:urchinTracker('/linktracker/english/footer/internal/offices');" href="/english/information/offices/index.asp"><abbr title="Immigration, Refugees, and Citizenship Canada">IRCC</abbr> offices</a></li>
+          <li><a onclick="javascript:urchinTracker('/linktracker/english/footer/internal/media');" href="/english/department/media/contacts.asp">Media contacts</a></li>
+          
+        </ul>
+      </section>
+      <section>
+        <h3>News</h3>
+        <ul class="list-unstyled">
+          <li><a onclick="javascript:urchinTracker('/linktracker/english/footer/internal/newsroom');" href="/english/department/media/index.asp">Newsroom</a></li>
+          <li><a onclick="javascript:urchinTracker('/linktracker/english/footer/internal/notices');" href="/english/department/media/notices/index.asp">Notices</a></li>
+          <li><a onclick="javascript:urchinTracker('/linktracker/english/footer/internal/photos');" href="/english/department/media/photos/index.asp">Photos</a></li>
+          <li><a onclick="javascript:urchinTracker('/linktracker/english/footer/internal/videos');" href="/english/department/media/multimedia/index.asp">Videos</a></li>
+          <li><a onclick="javascript:urchinTracker('/linktracker/english/footer/internal/newsletter');" href="/english/resources/enewsletter/index.asp">Newsletter</a></li>
+        </ul>
+      </section>
+    </div>
+    <section class="col-sm-3 col-lg-3">
+      <h3>Government</h3>
+      <ul class="list-unstyled">
+        <li><a href="http://www.canada.ca/en/gov/system/index.html" onclick="javascript:urchinTracker('/linktracker/english/footer/external/how-gov-works');">How government works</a></li>
+        <li><a href="http://canada.ca/en/gov/dept/index.html" onclick="javascript:urchinTracker('/linktracker/english/footer/external/depts-agencies');">Departments and agencies</a></li>
+        <li><a href="http://pm.gc.ca/eng" onclick="javascript:urchinTracker('/linktracker/english/footer/external/pm');">Prime Minister</a></li>
+        <li><a href="http://canada.ca/en/gov/ministers/index.html" onclick="javascript:urchinTracker('/linktracker/english/footer/external/ministers');">Ministers</a></li>
+        <li><a href="http://canada.ca/en/gov/publicservice" onclick="javascript:urchinTracker('/linktracker/english/footer/external/public-service-military');">Public service and military</a></li>
+        <li><a href="https://www.canada.ca/en/government/system/laws.html" onclick="javascript:urchinTracker('/linktracker/english/footer/external/policies');">Treaties, laws and regulations</a></li>
+        <li><a href="http://canada.ca/en/gov/libraries/index.html" onclick="javascript:urchinTracker('/linktracker/english/footer/external/libraries');">Libraries</a></li>
+        <li><a href="/english/resources/publications/index.asp" onclick="javascript:urchinTracker('/linktracker/english/footer/internal/publications');">Publications</a></li>
+        <li><a href="/english/about_us/reports.asp" onclick="javascript:urchinTracker('/linktracker/english/footer/internal/statistics');">Statistics and data</a></li>
+        <li><a href="http://canada.ca/en/newsite.html" onclick="javascript:urchinTracker('/linktracker/english/footer/external/newcanada');">About Canada.ca</a></li>
+      </ul>
+    </section>
+    <section class="col-sm-3 col-lg-3 brdr-lft">
+      <h3>Transparency</h3>
+      <ul class="list-unstyled">
+        <li><a href="http://www.canada.ca/en/transparency/reporting.html" onclick="javascript:urchinTracker('/linktracker/english/footer/external/reporting');">Government-wide reporting</a></li>
+        <li><a href="http://open.canada.ca/en/" onclick="javascript:urchinTracker('/linktracker/english/footer/external/open-gov');">Open government</a></li>
+        <li><a href="http://www.canada.ca/en/transparency/disclosure.html" onclick="javascript:urchinTracker('/linktracker/english/footer/external/disclosure');">Proactive disclosure</a></li>
+        <li><a href="/english/notices.asp" onclick="javascript:urchinTracker('/linktracker/english/footer/internal/conditions');">Terms and conditions</a></li>
+        <li><a href="/english/notices.asp#privacy" onclick="javascript:urchinTracker('/linktracker/english/footer/internal/privacy');">Privacy</a></li>
+      </ul>
+    </section>
+    <div class="col-sm-3 col-lg-3 brdr-lft">
+      <section>
+        <h3>Social media</h3>
+        <p><a href="/english/department/media/social.asp" onclick="javascript:urchinTracker('/linktracker/english/footer/internal/socialmedia');"><img src="/wet-v4/dist/assets/social.png" alt="Social media"></a></p>
+      </section>
+      <section>
+        <h3>Mobile centre</h3>
+        <p><a href="http://www.canada.ca/en/mobile/index.html" onclick="javascript:urchinTracker('/linktracker/english/footer/external/mobilecentre');"><img src="/wet-v4/dist/assets/mobile.png" alt="Mobile centre"></a></p>
+      </section>
+    </div>
+    
+    <!-- Testing --> 
+  </div>
+</nav>
+<div class="brand">
+  <div class="container">
+    <div class="row ">
+      <div class="col-xs-6 visible-sm visible-xs tofpg"> <a href="#cn-cont">Top of Page <span class="glyphicon glyphicon-chevron-up"></span></a> </div>
+      <div class="col-xs-6 col-md-12 text-right">
+        <object type="image/svg+xml" tabindex="-1" role="img" data="/wet-v4/dist/assets/wmms-blk.svg" aria-label="Symbol of the Government of Canada">
+        </object>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+  <!-- FooterEnd --> 
+</footer>
+
+<!--[if gte IE 9 | !IE ]><!--> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
+<script src="/wet-v4/dist/js/wet-boew.min.js"></script> 
+<!--<![endif]--> 
+
+<!--[if lt IE 9]>
+<script src="/wet-v4/dist/js/ie8-wet-boew2.min.js"></script>
+<![endif]--> 
+<script src="/wet-v4/dist/js/theme.min.js"></script> 
+
+<!-- // Refugee message --> 
+
+<script src="/js/file-size.js"></script> 
+<script type="text/javascript">
+/* Function that check the first select box */
+function check1()
+ {
+ var x=document.getElementById("id_RvWlA6onTh");
+ var el = document.getElementById("br1");
+ var el1 = document.getElementById("id_4p7C0S8k0K2");
+ var el2 = document.getElementById("id_4p7C0S8k0K");
+ if (x.value == 1){
+	 el.style.display = 'block';
+	 el1.style.display = 'block';
+	 el2.style.display = 'block';
+	 }
+ else {
+	 el.style.display = 'none';
+	 el1.style.display = 'none';
+	 el2.style.display = 'none';}	 
+ }
+ 
+ /* Function that check the secound select box */
+ function check2()
+ {
+ var x=document.getElementById("id_4p7C0S8k0K");
+ var el = document.getElementById("id_IzFPTSLXlf2");
+ var el2 = document.getElementById("id_IzFPTSLXlf");
+ if (x.value == 4){
+	 el.style.display = 'block';
+	 el2.style.display = 'block';
+	 }
+ else {
+	 el.style.display = 'none';
+	 el2.style.display = 'none';}	 
+ }
+</script> 
+
+<!-- This script is for tracking Page Prints & Print Method in Google Analytics using jQuery --> 
+<script type="text/javascript">
+(function () 
+{
+	var runOnce;
+	var afterPrint = function() {
+	/* Because of Chrome we can only allow the code to run once. */
+	if (!runOnce) { 
+		runOnce = true;
+		var printData = $('html').attr('printType');
+		var mouseButton = $('html').attr('mouseBtn');
+		
+		if (printData === undefined && mouseButton === 'Right') { 
+		/* Print activated using Right Mouse Button */
+		printData = 'Right Mouse Button';
+		} 
+		else if (printData === undefined) { 
+		/* Print (probably) activated using Browser Menu */
+		printData = 'Browser Menu';
+		}
+		/* Send Print Data to Google Analytics */
+		ga('send','event','Page Printed', printData, window.location.href);
+		/* Clear the attribute, if not printing from the menu can be tracked incorrectly. */
+		$('html').removeAttr('printType'); 
+		$('html').removeAttr('mouseBtn'); 
+	};
+};
+
+/* Track printing from browsers using the Webkit engine */
+if (window.matchMedia) { 
+	var mediaQueryList = window.matchMedia('print');
+	mediaQueryList.addListener(function(mql) {
+		if (!mql.matches) {
+		afterPrint();
+		}
+	});
+}
+
+/* Needed for IE */
+window.onafterprint = afterPrint; 
+
+/* Track printing using Ctrl/Cmd+P. */
+$(document).keydown(function(allBrowsers) { 
+if (allBrowsers.keyCode==80 && (allBrowsers.ctrlKey || allBrowsers.metaKey)) {
+$('html').attr('printType', 'Ctrl/Cmd+P');
+/* Opera is a little different so we must send the afterPrint() function to get the tracking to work. */
+if ($.browser.opera) { 
+afterPrint();
+}
+}
+});
+
+/* Detect Right Mouse Button Click */
+$('html').mousedown(function(e) {
+if( e.which == 3 ) {
+$('html').attr('mouseBtn', 'Right');
+}
+});
+}());
+</script>
+ 
+<script src="/js/wb-fieldflow.min.js"></script> 
+</body>
+</html>

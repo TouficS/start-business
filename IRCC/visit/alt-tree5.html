@@ -43,75 +43,181 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 <main role="main" property="mainContentOfPage" class="container">
 
 
- <!-- Details/Summary expand for print -->
+
+	
+	<!-- Details/Summary expand for print -->
  <span class="wb-toggle" data-toggle='{"selector": "main summary", "print": "on"}'></span> 
 
 
-		<!-- Content title begins / D&eacute;but du titre du contenu -->
-			 <h1 id="cn-cont">An alt Decision Tree</h1>
- <!-- Content Title ends / Fin du titre du contenu --> 
- <!-- Content begins / D&eacute;but du contenue -->
-<section>
-	
-	
-<div class="wb-frmvld"><form method="get">
-	<div class="wb-fieldflow" data-wb-fieldflow='{"noForm": true}'>
-		<p>Choose content to be toggle?</p>
-		<ul>
-			<li data-wb-fieldflow='{"action": "toggle", "toggle": "#toggle-third", "live": true}'>Toggle third</li>
-			<li data-wb-fieldflow='{"action": "toggle", "toggle": "#toggle-forth", "live": true}'>Toggle forth</li>
-			<li data-wb-fieldflow='{"action": "toggle", "toggle": "#toggle-third, #toggle-forth", "live": true}'>Toggle both</li>
-		</ul>
-	</div>
+<h1 id="cn-cont">Determine your eligibility -  Self-Assessment Tool</h1>
+<!-- Content begins / Début du contenue -->
 
-	<div id="toggle-third" class="well hidden">
-		<p>This is third <code>@id=toggle-third</code></p>
-	</div>
-
-	<div id="toggle-forth" class="jumbotron hidden">
-		<p>This is forth <code>@id=toggle-forth</code></p>
-	</div>
-
-</form></div>
-
-	
-<div class="wb-frmvld"><form method="get">
-<div class="wb-fieldflow" data-wb-fieldflow='{"noForm": true}'>
-	<p>The image</p>
-		<ul>
-			<li>contain text
-				<div class="wb-fieldflow-sub">
-					<p>and</p>
-						<ul>
-							<li data-wb-fieldflow="alt-tree-res.html#part1-1">the text in the image is also present as real text nearby.</li>
-							<li data-wb-fieldflow="alt-tree-res.html#part1-2">the text is only shown for visual effects.</li>
-							<li data-wb-fieldflow="alt-tree-res.html#part1-3">the text in the image is not present otherwise.</li>
-						</ul>
-				</div>
-			</li>
-			
-			<li data-wb-fieldflow="alt-tree-res.html#part2-1">used in a link or a button, and would it be hard or impossible to understand what the link or the button does, if the image wasn’t there?</li>
-		
-			<li>contribute meaning to the current page or context?
-				<div class="wb-fieldflow-sub">
-					<p>and</p>
-						<ul>
-							<li data-wb-fieldflow="alt-tree-res.html#part3-1">it’s a simple graphic or photograph.</li>
-							<li data-wb-fieldflow="alt-tree-res.html#part3-2">it’s a graph or complex piece of information.</li>
-							<li data-wb-fieldflow="alt-tree-res.html#part3-3">it shows content that is redundant to <em>real</em> text nearby.</li>
-						</ul>
-				</div>
-			</li>
-			
-			<li data-wb-fieldflow="alt-tree-res.html#part4-1">purely decorative or not intended for the user?</li>
-			
-			<li data-wb-fieldflow="alt-tree-res.html#part5-1">use not listed above or it’s unclear what <code>alt</code> text to provide?</li>
-			
-		</ul>
+<p>Use this tool to help you determine if you are eligible to apply  for Canadian citizenship</p>
+<div class="wb-frmvld">
+  <form method="get">
+    
+    <!-- Question 1 -->
+    <div id="question-1" class="wb-fieldflow" data-wb-fieldflow='{
+		"renderas":"radio", 
+		"noForm": true,
+		"base": { "live": true },
+		"default": { "action": "addClass", "source":"#result-10,#result-11", "class": "hidden" }
+	}'>
+      <p>1. Have you been a permanent resident, and  physically been in Canada for at least 3 years in the past 5 year period?</p>
+      <ul>
+        <li data-wb-fieldflow='{"action": "append", "source": "#question-4"}'>Yes</li>
+        <li data-wb-fieldflow='{"action": "append", "source": "#question-2"}'>No</li>
+      </ul>
+    </div>
+  </form>
 </div>
-</form></div>
+
+<!-- Question 2 -->
+<div id="question-2" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
+  <p>2. Have you lived in Canada with temporary resident or protected person status within the past 5 years?</p>
+  <ul>
+    <li data-wb-fieldflow='{"action": "append", "source": "#question-3"}'>Yes</li>
+    <li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result-11"}'>No</li>
+  </ul>
+</div>
+
+<!-- Question 3 -->
+<div id="question-3" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
+  <p>3. Have you been a permanent resident and  physically been in Canada for at least 2 years in the past 5 year period?</p>
+  <ul>
+    <li data-wb-fieldflow='{"action": "append", "source": "#question-4"}'>Yes</li>
+    <!-- à  go to 4 *need to indicate note for client to complete online calculation to use  NPR time -->
+    <li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result-11"}'>No</li>
+  </ul>
+</div>
+
+<!-- Question 4 -->
+<div id="question-4" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
+  <p>4. In the last 5 years have you been outside of Canada for more than a total of 730 days?</p>
+  <ul>
+    <li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result-11"}'>Yes</li>
+    <li data-wb-fieldflow='{"action": "append", "source": "#question-5"}'>No</li>
+  </ul>
+</div>
+
+<!-- Question 5 -->
+<div id="question-5" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
+  <p>5. Have Canadian officials asked you to leave Canadaor that you have unfulfilled conditions related to your permanent resident status?</p>
+  <ul>
+    <li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result-11"}'>Yes</li>
+    <li data-wb-fieldflow='{"action": "append", "source": "#question-6"}'>No</li>
+  </ul>
+</div>
+
+<!-- Question 6 -->
+<div id="question-6" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>    
+    <div class="wb-fieldflow-header">
+    <p class="wb-fieldflow-label">6. Do any of the following apply to you:</p>                           
+    <ul>
+  	  <li>I am in prison, on parole or on probation in Canada</li>
+      <li>I am serving a sentence outside Canada</li>
+      <li>I am charged with, on trial for, or involved in an appeal for an offence under the <em>Citizenship Act</em>, or an indictable offence in Canada,</li>
+      <li>I am charged with, on trial for, or involved in an appeal for an offence committed outside Canada that is determined to be equivalent to an indictable offence in Canada</li>
+      <li>I am being investigated for, am charged with, on trial for, involved in an appeal for or have been convicted of a war crime or a crime against humanity</li>
+      <li>I have had a citizenship application refused for misrepresentation in the past five years</li>
+      <li>I have had my Canadian citizenship revoked (taken away) because of fraud in the past ten years</li>
+      <li>I have had my Canadian citizenship revoked (taken away) because I have been convicted of terrorism, high treason, treason, or spying offences, depending on the sentence received; or because I have served as a member of an armed force of a country or organized armed group and that country or group engaged in armed conflict with Canada</li>
+      <li>I have been convicted of an indictable offence in Canada or an offence under the <em>Citizenship Act</em> in the last 4 years</li>
+      <li>I have been convicted outside Canada of an offence that is determined to be equivalent to an indictable offence in Canada in the last 4 years, even a pardon or other amnesty was granted for the offence</li>
+      <li>I have been convicted of terrorism, high treason, treason, or spying offences while I were a permanent resident</li>
+      <li>I served as a member of an armed force of a country or organized armed group and that country or group engaged in armed conflict with Canada, while I was a permanent resident</li>
+    </ul>
+    </div>
+    <ul>
+    <li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result-11"}'>Yes</li>
+    <li data-wb-fieldflow='{"action": "append", "source": "#question-7"}'>No</li>
+  </ul>
+</div>
+
+<!-- Question 7 -->
+<div id="question-7" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
+    <div class="wb-fieldflow-header">
+    <p class="wb-fieldflow-label">7. Which of these language options is correct for you?</p>                           
+    <p>Examples of proof that you have knowledge of English or French (for more details see section 15 of the guide):</p>
+    <ul>
+      <li>Results from an IRCC approved third party language test</li>
+      <li>Diploma, certificate or final transcript demonstrating completion from a secondary or post-secondary school that was completed in English or French</li>
+      <li>Evidence of achieving CLB/NCLC 4 in a government funded language training program</li>
+      <li>If you are deaf: Supporting evidence of an audiogram along with an attestation issued by a Canadian audiologist</li>
+    </ul>
+    </div>
+  <ul>
+    <li data-wb-fieldflow='{"action": "append", "source": "#question-8"}'>I am 17 or younger, or 55 or older (no proof of language is required)</li>
+    <li data-wb-fieldflow='{"action": "append", "source": "#question-8"}'>I am between 18 and 54 and I have proof that I have knowledge of English or French</li>
+    <li data-wb-fieldflow='{"action": "append", "source": "#question-8"}'>I am between 18 and 54 and I have supporting evidence from a medical practitioner authorized to practice in Canada that I have a disorder, disability, or condition that is cognitive, psychiatric, or physiological</li>
+    <li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result-11"}'>I am between 18 and 54 and I do NOT have proof that I have knowledge of English or French</li>
+  </ul>
+</div>
+
+<!-- Question 8 -->
+<div id="question-8" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
+  <p>8. In the past 5 years, have you been required to file your personal income taxes under the <em>Income Tax Act</em> of Canada?</p>
+  <ul>
+    <li data-wb-fieldflow='{"action": "append", "source": "#question-9"}'>Yes</li>
+    <li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result-10"}'>No</li>
+  </ul>
+</div>
+
+<!-- Question 9 -->
+<div id="question-9" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
+  <p>9. Have you filed personal income taxes for at  least 3 years in the past 5 years?</p>
+  <ul>
+    <li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result-10"}'>Yes</li>
+    <li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result-11"}'>No</li>
+  </ul>
+</div>
+
+<!-- Resultat: Item 10 -->
+<div id="result-10" class="hidden">
+  <p>10. You probably meet the requirements for the Grant  of Canadian citizenship.</p>
+  <p>Next steps:</p>
+  <ul>
+    <li>Use the <a href="https://eservices.cic.gc.ca/rescalc/resCalcStartNew.do">Physical Presence Calculator</a> to confirm you have been in Canada for the required 1095 days in  the past 5 years</li>
+    <li>Follow the guide to complete your application</li>
+  </ul>
+</div>
+
+<!-- Resultat: Item 11 -->
+<div id="result-11" class="hidden">
+  <p>11. It appears that you may not meet one or more of the requirements to become a Canadian citizen.</p>
+  <p><strong>You should wait to apply  until you meet all of the requirements.</strong></p>
+  <p>In rare  cases it is possible that time spent outside of Canada can count towards the  physical presence requirement when applying for citizenship, <a href="http://www.cic.gc.ca/english/helpcentre/answer.asp?qnum=370&top=5">learn more</a>.</p>
+</div>
+<p>Disclaimer: These questions are based on the general/legal requirements for a Canadian citizenship application under subsection 5(1) of the Citizenship Act.  The results provide a general guideline to help you determine if you are ready to apply for Canadian citizenship and is not legal advice, nor will it be part of your formal application.  You must submit an official application using the form CIT 0002 to begin the process of becoming a Canadian citizens.  Please see the guide for more information.</p>
+
+<!-- Content ends / Fin du contenue --> 
+
+
+<div class="row pagedetails">
+    <div class="col-sm-6 col-lg-4 mrgn-tp-sm">
+    	<a href="https://www.canada.ca/en/report-problem.html" class="btn btn-default btn-block">Report a problem or mistake on this page</a>
+    </div>
+	<div class="col-sm-3 mrgn-tp-sm pull-right">
+		<div class="wb-share" data-wb-share='{"lnkClass": "btn btn-default btn-block"}'></div>
+	</div>
+	<div class="datemod col-xs-12 mrgn-tp-lg">
+		<dl id="wb-dtmd">
+			<dt>Date Modified:&#32;</dt>
+			<dd><time property="dateModified">2017-03-30</time></dd>
+		</dl>
+	</div>
+</div>
+
 	
-</section>
+	
+	
+	
+	
+	
+	
+	
+	
+	
   <!-- Fin du contenue/Content ends  --> 
 
 

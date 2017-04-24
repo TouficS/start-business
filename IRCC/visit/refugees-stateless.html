@@ -117,6 +117,9 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 	<div class="col-md-12">
 <section>
 	<div class="wb-frmvld"><form>
+		<div class="wb-fieldflow" data-wb-fieldflow='{"noForm": true, "renderas":"radio",
+		“reset”: { “action”: “addClass”, “source”: “#question2”, “class”: “hidden” }
+		}'>
                 <div class="wb-fieldflow" data-wb-fieldflow='{"noForm": true, "renderas":"radio"}'>
 			<p>Are you a:</p>
 			<ul>
@@ -132,14 +135,20 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 					</ul>
 				</div>
 			</li>
-			<li>refugee travelling with a U.S. I-571 and you have a valid U.S. Green Card
-				<div class="wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"link"}'>
-			  	<label>You need an Electronic Travel Authorization (eTA) to travel or transit through Canada by air.</label>
-			  	<ul>
-				<li><a href="http://www.cic.gc.ca/english/visit/eta-start.asp">Get an eTA</a></li>
-				</ul>
+			<li>
+				data-wb-fieldflow=’[ 
+				{ “action”:“removeClass”, “source”:”#question2”, “class”:”hidden”, “live”: true },
+				{ “action”:“redir”, “url”:”http://www.cic.gc.ca/english/visit/eta-start.asp” }
+				]’
+				refugee travelling with a U.S. I-571 and you have a valid U.S. Green Card
+				<div class="wb-fieldflow-sub" data-wb-fieldflow='{}'>
+					<div id=”question2” class=”hidden”>
+						<div class=”well”>
+							<p>You need an Electronic Travel Authorization (<abbr>eTA</abbr>) to travel or transit through Canada by air.</p>
+						</div>
+					</div>
 				</div>
-				</li>
+			</li>
 			<li>refugee travelling with a U.S. I-571 and you don’t have a valid U.S. Green Card
 				<div class="wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
 					<p>The type of visa you need depends on what you plan to do:</p>
@@ -165,6 +174,7 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 				</div>
       			</li>		
 			</ul>
+		</div>
 		</div>
 		<input class="btn btn-primary btn-lg mrgn-bttm-md" type="submit" value="Find out how to apply" />
 		</form>
